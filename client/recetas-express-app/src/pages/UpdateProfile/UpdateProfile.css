@@ -1,0 +1,84 @@
+/* Estilos generales para la página de actualización de perfil */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffe6f0; /* Fondo con un tono rosa suave */
+}
+
+.content {
+    width: 100%;
+    max-width: 800px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 30px;
+    color: #b75b7a; /* Título en un tono rosa fuerte */
+    text-align: center;
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #000; /* Color rosa para las etiquetas */
+}
+
+input[type="text"],
+input[type="file"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ffb3c6; /* Borde en un tono rosa claro */
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #ffe6f0; /* Fondo de input con un rosa muy suave */
+    color: #333;
+}
+
+input[type="file"] {
+    padding: 0;
+}
+
+.error {
+    color: #d9534f;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #b75b7a; /* Botón en un tono rosa fuerte */
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #b75b7a; /* Botón en un tono rosa más claro al hacer hover */
+}
+
+img {
+    margin-bottom: 15px;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+p {
+    color: #333;
+    font-size: 16px;
+}

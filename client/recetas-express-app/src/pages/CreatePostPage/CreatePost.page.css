@@ -1,0 +1,129 @@
+/* General body styles */
+body {
+    background-color: #d9a4b0;
+    /* Color de fondo principal */
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    background-color: #d9a4b0;
+    /* Coincide con el fondo general */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    width: 900px;
+    max-width: 95%;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+/* Input fields */
+input[type="number"],
+textarea, 
+input[type="text"]{
+    width: 100%;
+    padding: 12px;
+    margin: 12px 0;
+    border: 2px solid #b75b7a;
+    border-radius: 8px;
+    background-color: #fff;
+    /* Blanco para los campos */
+    color: #333;
+    font-size: 16px;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Button styling */
+button {
+    background-color: #b75b7a;
+    color: white;
+    border: none;
+    padding: 14px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #92496c;
+    transform: scale(1.05);
+}
+
+/* Shadow for button */
+button {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* seleccionar visibilidad */
+select {
+    width: 50%;
+    font-size: 16px;
+    padding: 7px;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #b75b7a;
+    border-radius: 8px;
+    margin-top: 8px;
+}
+
+/* seleccionar archivo */
+.upload-button {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #b75b7a;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    user-select: none;
+}
+
+.upload-button:hover {
+    background-color: #92496c;
+}
+
+.hidden-input {
+    display: none;
+}
+
+/* Error message styling */
+.error-msg {
+    display: block;
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}

@@ -1,0 +1,124 @@
+.recipe-details {
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+
+.nav-bar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  margin-left: 35px;
+}
+
+.nav-bar h1 {
+  margin: 0;
+}
+
+.recipe-detail {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.recipe-detail img {
+  width: 100%; 
+  max-width: 400px; 
+  height: auto;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.recipe-detail p {
+  font-size: 16px; /* Tamaño de fuente ligeramente más pequeño para mayor legibilidad */
+  line-height: 1.6; /* Mayor espacio entre líneas para facilitar la lectura */
+  margin: 15px 0; /* Espaciado superior e inferior para separar bien los párrafos */
+  text-align: justify; /* Justificar el texto para una apariencia más ordenada */
+  color: #333; /* Color de texto más suave para una lectura cómoda */
+}
+
+.recipe-detail p strong {
+  font-weight: bold;
+  color: #b75b7a; /* Un color más oscuro para resaltar las etiquetas */
+}
+
+
+.recipe-detail h2 {
+  margin: 20px 0;
+}
+
+.recipe-actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.recipe-actions button {
+  background-color: #9aef96;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.recipe-actions button:hover {
+  background-color: #9aef96;
+}
+
+.comments-section {
+  margin-top: 20px;
+}
+
+.comments-section h3 {
+  margin-bottom: 10px;
+}
+
+.comments-section textarea {
+  width: 95%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.comments-section button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.comments-section button:hover {
+  background-color: #555;
+}
+
+.comments-section p {
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+.likes-section button {
+  background-color: #b75b7a; /* Color de fondo inicial */
+  color: #fff; /* Color del texto */
+  border: none; /* Sin borde */
+  padding: 12px 25px; /* Aumenta el padding para hacerlo más grande */
+  cursor: pointer; /* Muestra el puntero de clic cuando se pasa el mouse */
+  font-size: 18px; /* Aumenta el tamaño de la fuente */
+  margin-right: 10px; /* Espaciado a la derecha */
+  border-radius: 30px; /* Bordes completamente redondeados */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra ligera para darle profundidad */
+  transition: background-color 0.3s ease, transform 0.3s ease; /* Transición suave para el hover */
+}
+
+.likes-section button:hover {
+  background-color: #99e067; /* Color de fondo cuando se pasa el mouse */
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño al hacer hover */
+}
+
+.likes-section button:active {
+  background-color: #99e067; /* Color cuando se hace clic */
+  transform: scale(1); /* Vuelve al tamaño original al hacer clic */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Reduce la sombra para simular un "clic" */
+}
